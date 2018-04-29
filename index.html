@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>⭐ Half-time FrontEnd ⭐</title>
+    <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Rubik+Mono+One" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- SEO begin -->
+    <!-- FACEBOOK -->
+    <meta name="description" content="A collection of Awesome Ideas, Devs & Speakers, Code Snippets and other Things to show newcomers what's possible in the Front-End world and get them excited about it!"
+    />
+    <meta property="og:url" content="https://iampava.com/half-time-fe" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Half-time FrontEnd" />
+    <meta property="og:description" content="A collection of Awesome Ideas, Devs & Speakers, Code Snippets and other Things to show newcomers what's possible in the Front-End world and get them excited about it!"
+    />
+    <meta property="og:image" content="https://iampava.com/half-time-fe/cover.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!-- TWITTER -->
+    <meta name="twitter:image" content="https://iampava.com/half-time-fe/cover.jpg" />
+    <meta name="twitter:site" content="@aPavaloi" />
+    <meta name="twitter:creator" content="@aPavaloi" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- SEO-end -->
+</head>
+
+<body>
+    <h1 class="title mono"> Half-time FrontEnd</h1>
+    <div class="content">
+        <h1 class="mission"> A collection of
+            <div>
+                <div class="bouncer mono">
+                    <div class="bouncer__content" id="bouncerContent">
+                        <p class="bouncer__item">💡 awesome ideas 💡</p>
+                        <p class="bouncer__item">😎 devs & speakers 😎</p>
+                        <p class="bouncer__item">🍺 events 🍺</p>
+                        <p class="bouncer__item">💻 code snippets ‍💻</p>
+                        <p class="bouncer__item">⭐ things ⭐</p>
+                    </div>
+                </div>
+            </div>
+            to show newcomers what's possible in the Front-End world and get them excited about it!
+            <br/>
+            <br/> It started out as a way to pass the time and also share cool stuff with my students during the half-time brake!
+        </h1>
+        <br/>
+        <section class="week" id="week1">
+            <h1 class="week__header is-cut"> #1: Emojis & CSS</h1>
+            <ul class="week__list">
+                <li> 🌱
+                    <a href="https://emoji-garden.glitch.me/" target="_blank" class="link">emoji garden</a>
+                    by
+                    <a href="https://twitter.com/notwaldorf" target="_blank" class="link">@notwaldorf</a>
+                </li>
+                <li> 🎨
+                    <a href="https://codepen.io/eva_trostlos" target="_blank" class="link">CSS art</a>
+                    by
+                    <a href="https://twitter.com/eva_trostlos" target="_blank" class="link">@eva_trostlos</a>
+                </li>
+            </ul>
+        </section>
+        <section class="week" id="week1">
+            <h1 class="week__header is-cut"> #2: Next week...</h1>
+
+        </section>
+        <hr />
+
+        <section class="contribute">
+            <h1> Have something cool that will make a bunch of beginner students or FE newcomers go:
+                <p class="contribute__quote mono">WOW! I didn't know you could do that on the Web!!!</p>
+                Then please send it to me and I'll be happy to share it here!</h1>
+        </section>
+    </div>
+    <footer>
+        If you wanna get in touch, email me at
+        <a class="link" href="mailto:pava@iampava.com">pava@iampava.com</a>
+        or tweet at
+        <a class="link" href="https://twitter.com/@aPavaloi">@aPavaloi</a>
+    </footer>
+    <script>
+        const NR_OF_MISSIONS = document.getElementsByClassName("bouncer__item").length;
+
+        let bouncerContent = document.getElementById("bouncerContent");
+        let translateInterval = 100 / NR_OF_MISSIONS;
+        let offsetTranslate = translateInterval;
+        let sign = 1;
+
+        setInterval(function bounceMission() {
+            bouncerContent.style.transform = `translateY(-${offsetTranslate}%)`;
+            offsetTranslate += sign * translateInterval;
+
+            if (offsetTranslate === translateInterval * (NR_OF_MISSIONS - 1)) {
+                sign = -1;
+            }
+            if (offsetTranslate === 0) {
+                sign = 1;
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
