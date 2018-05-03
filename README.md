@@ -17,16 +17,16 @@
 * <a href="https://aframe.io/">🎮 A-FRAME</a>: framework for WebVR
 * <a href="">📱 IONIC</a>: framework for building mobile apps with the Web
 * <a href="">📖 Front-End Developer Handbook</a> : uber-amazing resource for learning FE 
-* ✅ You might not need jQuery...? 
+* <a href="http://youmightnotneedjquery.com/">✅ You might not need jQuery...?</a> 
 
 
 ### #1: Emojis & CSS
 
-* 🌱 emoji garden by @notwaldorf
-* 🎨 CSS art by @eva_trostlos
+* 🌱 <a href="https://emoji-garden.glitch.me/">emoji garden</a> by <a href="https://twitter.com/notwaldorf">@notwaldorf<a/>
+* 🎨 <a href="https://codepen.io/eva_trostlos/">CSS art</a> by <a href="https://twitter.com/eva_trostlos">@eva_trostlos</a>
 
 
 <hr/>
 
 ### Wanna contribute?
-📧 Drop me a line on Twitter <a href="">@aPavaloi </a> or email at <a href="mailto:pava@iampava.com">pava@iampava.com </a>
+📧 Drop me a line on Twitter <a href="https://twitter.com/aPavaloi">@aPavaloi </a> or email at <a href="mailto:pava@iampava.com">pava@iampava.com </a>
