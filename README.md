@@ -10,13 +10,18 @@
 
 👨‍🏫 It started out as a way to pass the time and also share cool stuff with my students during the half-time brake! 
 
+###  #3: WAT? PWA's & SVG's!
 
+* 😂 <a href="https://www.youtube.com/watch?v=ryJSRZzAvUs">WAT (da fuck) JS </a>
+* 📱 <a href="https://www.youtube.com/watch?v=NITk4kXMQDw">PWA's</a> at <a href="https://events.google.com/io">Google I/O</a>
+* 🎨 <a href="https://www.youtube.com/watch?v=ADXX4fmWHbo"> SVG can do that???</a> by <a href="https://twitter.com/sarah_edo"> Sarah Drasner</a>
+* 👨‍🔬 <a href="https://js.tensorflow.org/"> TensorFlow.js</a>
 
 ###  #2: WebVR & Ionic
 
 * <a href="https://aframe.io/">🎮 A-FRAME</a>: framework for WebVR
-* <a href="">📱 IONIC</a>: framework for building mobile apps with the Web
-* <a href="">📖 Front-End Developer Handbook</a> : uber-amazing resource for learning FE 
+* <a href="https://ionicframework.com/framework">📱 IONIC</a>: framework for building mobile apps with the Web
+* <a href="https://frontendmasters.com/books/front-end-handbook/2018/">📖 Front-End Developer Handbook</a> : uber-amazing resource for learning FE 
 * <a href="http://youmightnotneedjquery.com/">✅ You might not need jQuery...?</a> 
 
 
