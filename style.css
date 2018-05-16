@@ -11,7 +11,10 @@ body {
     padding: 0 15px;
 }
 
-/* #f7df1e */
+.mission {
+    font-size: 2em;
+    font-weight: bold;
+}
 
 .mono {
     /* font-family: 'Monofett', cursive; */
@@ -38,6 +41,7 @@ body {
 .bouncer__content {
     transition: all 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     padding: 1em 0.25em 0 0.25em;
+    display: block;
 }
 .bouncer__item {
     margin: 1em 0;
@@ -93,6 +97,8 @@ body {
 
 .contribute {
     margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .contribute__quote {

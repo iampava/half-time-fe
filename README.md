@@ -10,6 +10,12 @@
 
 👨‍🏫 It started out as a way to pass the time and also share cool stuff with my students during the half-time brake! 
 
+###  #4: Canvas & TC39
+
+* 🦁 <a href="https://codepen.io/Yakudoo/pen/YXxmYR">Chill the lion </a> with <a href="https://threejs.org/">ThreeJS </a>
+* 👕 <a href="https://codepen.io/dissimulate/pen/KrAwx">Tearable cloth/a>
+* 👨‍🔬👩‍🔬 <a href="https://tc39.github.io/tc39-notes/"> TC39 meeting notes</a>
+
 ###  #3: WAT? PWA's & SVG's!
 
 * 😂 <a href="https://www.youtube.com/watch?v=ryJSRZzAvUs">WAT (da fuck) JS </a>
